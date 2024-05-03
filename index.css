@@ -1,0 +1,67 @@
+h1 {
+    color: #AF8260;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding-bottom: 0.5rem;
+    z-index: 10;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid #AF8260;
+    background-color: transparent;
+    outline: none;
+    padding: 0 0 0.5rem 0;
+}
+
+.submit-btn {
+    border: none;
+    background-color: #AF8260;
+    padding: 0.6rem !important;
+    color: white;
+}
+
+.submit-btn:hover {
+    filter: brightness(1.1);
+}
+
+.item {
+    background-color: #E4C59E;
+    border-radius: 1rem;
+}
+
+.item .title {
+    color: #803D3B;
+}
+
+.item .del {
+    background-color: transparent;
+    border: none;
+}
+
+.item .del:hover {
+    filter: brightness(2);
+}
+
+.form-part form {
+    position: sticky;
+    top: 5rem;
+}
+
+.items-part:not(:has(:first-child))::before {
+    content: "No items yet.";
+    font-size: large;
+    text-align: center;
+    color: gray;
+    display: block;
+    padding: 2rem;
+}
+
+.date {
+    font-size: 0.7rem;
+    padding-top: 0.5rem;
+    color: #803D3B;
+}
+
+
